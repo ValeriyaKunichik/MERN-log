@@ -3,7 +3,6 @@ import axios from 'axios';
 
 export default function NewClient() {
  
-
   const [myState, setMyState]=React.useState(
     {
       name: ''
@@ -33,7 +32,6 @@ export default function NewClient() {
     })
   }
 
-  
     return (
       <div>
         <h3>Create New Client</h3>

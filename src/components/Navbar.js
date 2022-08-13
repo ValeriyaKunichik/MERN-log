@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 
 export default function Navbar() {
 
-  
     return (
       <nav className="navbar navbar-light bg-light navbar-expand-lg ">
         
@@ -22,6 +21,5 @@ export default function Navbar() {
         </ul>
         </div>
       </nav>
-    );
-  
+    );  
 }

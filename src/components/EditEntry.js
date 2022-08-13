@@ -90,7 +90,6 @@ export default function Editentry(){
     navigate("/");
    
   }
-
   
   return (
     <div>

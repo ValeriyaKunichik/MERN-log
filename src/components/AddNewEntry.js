@@ -71,8 +71,7 @@ export default function Createentry() {
 
       navigate("/");
   }
-
-  
+ 
     return (
     <div>
       <h3>Create New Entry</h3>
@@ -121,7 +120,6 @@ export default function Createentry() {
             />
           </div>
         </div>
-
         <div className="form-group">
           <input type="submit" value="Add new entry" className="btn btn-primary" />
         </div>

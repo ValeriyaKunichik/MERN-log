@@ -19,7 +19,6 @@ function Entryitem(props){
 export default function Journal() {
   const [myState, setMyState]=React.useState({records: []});
   
-  
   React.useEffect(function(){
     
     axios.get('http://localhost:5000/records/')
@@ -47,9 +46,7 @@ export default function Journal() {
     })
   }
   
-  
-  
-    return (
+  return (
       <div>
         <h3>Logged records</h3>
         <table className="table">
